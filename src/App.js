@@ -27,6 +27,7 @@ import AdminEmployeesPage from './pages/admin/AdminEmployeesPage';
 import AdminCustomersPage from './pages/admin/AdminCustomersPage';
 import AdminReportPage from './pages/admin/AdminReportPage';
 import AdminReturnsPage from './pages/admin/AdminReturnsPage';
+import POSPage from './pages/public/POSPage';
 
 import './assets/styles/App.css';
 
@@ -59,6 +60,7 @@ function App() {
           <Route path="customers" element={<AdminCustomersPage />} />
           <Route path="reports" element={<AdminReportPage />} />
           <Route path="returns" element={<AdminReturnsPage />} />
+          <Route path="pos" element={<POSPage />} />
       
         </Route>
       </Routes>
